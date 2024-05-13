@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="BootStrap/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/css-main.css">
+  <link rel="stylesheet" href="./css/footer-style.css">
+  <script src="https://kit.fontawesome.com/26ef36b519.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Product-Page</title>
+</head>
+
+<body>
+  <!-- info for product  -->
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-6">
+        <div class="left">
+          <div class="images">
+            <div class="small-img">
+              <img src="img/black.jpg" onclick="showImg(this.src)">
+            </div>
+            <div class="small-img">
+              <img src="img/blue.jpg" onclick="showImg(this.src)">
+            </div>
+            <div class="small-img">
+              <img src="img/red.jpg" onclick="showImg(this.src)">
+            </div>
+          </div>
+          <div class="big-img">
+            <img src="img/black.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="right">
+          <div class="pname m-3">VIOLET GALLOON STRETCH LACE WITH SHEEN - 7"- (VT0700G01)</div>
+          <div class="ratings m-3">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price m-3">$40</div>
+          <div class="size d-flex align-items-center m-3">
+            <div class="container d-flex">
+              <div class="fs-1">اللون :</div>
+              <div class="ms-4 d-flex">
+                <div class="mx-2 align-items-center justify-content-center">
+                  <p>black</p>
+                  <input class="input" type="radio">
+                </div>
+                <div class="mx-2 align-items-center justify-content-center">
+                  <p>red</p>
+                  <input class="input" type="radio">
+                </div>
+                <div class="mx-2 align-items-center justify-content-center">
+                  <p>blue</p>
+                  <input class="input" type="radio">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="quantity m-3">
+            <p>Quantity :</p>
+            <input type="number" min="1" value="1">
+          </div>
+          <div class="description d-flex align-items-center m-3">
+            <h3>Description :</h3>
+            <p>7" Violet stretch lace with sheen. Many uses head designs, shirt extenders, camisoles to name
+              a few. </p>
+          </div>
+          <div class="btn-box">
+            <button class="cart-btn">Add to Cart</button>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- swiper lib -->
+  <hr>
+  <h2>RECOMMENDED PRODUCTS</h2>
+  <div class="con position-relative">
+    <div class="container-fluid">
+      <swiper-container class="mySwiper" init="false">
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+        <swiper-slide><a href="./Pordect.html"><img src="img/anna-docking-p7v6X41PP4w-unsplash.jpg"
+              alt=""></a></swiper-slide>
+      </swiper-container>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer-20192 position-relative my-5 ">
+    <div class="site-section">
+      <div class="container">
+
+        <div class="cta d-block d-md-flex align-items-center px-5">
+          <div>
+            <h2 class="mb-0">Ready for a next project?</h2>
+            <h3 class="text-dark">Let's get started!</h3>
+          </div>
+          <div class="ml-auto">
+            <a href="#" class="btn btn-dark rounded-0 py-3 px-5">Contact us</a>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-sm">
+            <a href="#" class="footer-logo">Colorlib</a>
+            <p class="copyright">
+              <small>&copy; 2019</small>
+            </p>
+          </div>
+          <div class="col-sm">
+            <h3>Customers</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">Buyer</a></li>
+              <li><a href="#">Supplier</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h3>Company</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h3>Further Information</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Follow us</h3>
+            <ul class="list-unstyled social">
+              <li><a href="#"><span class="icon-facebook"></span></a></li>
+              <li><a href="#"><span class="icon-twitter"></span></a></li>
+              <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              <li><a href="#"><span class="icon-medium"></span></a></li>
+              <li><a href="#"><span class="icon-paper-plane"></span></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script>
+    const swiperEl = document.querySelector('swiper-container')
+    Object.assign(swiperEl, {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+    swiperEl.initialize();
+  </script>
+  <script>
+    let bigImg = document.querySelector('.big-img img');
+    function showImg(pic) {
+      bigImg.src = pic;
+    }
+  </script>
+  <script>
+    // level 1
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelector("#red").onclick = function () {
+        document.querySelector("#text-1").style.color = "red";
+        return false;
+      }
+      document.querySelector("#blue").onclick = function () {
+        document.querySelector("#text-2").style.color = "blue";
+        return false;
+      }
+      document.querySelector("#green").onclick = function () {
+        document.querySelector("#text-3").style.color = "green";
+        return false;
+      }
+      document.querySelector("#black").onclick = function () {
+        document.querySelector("#text-4").style.color = "black";
+        return false;
+      }
+    })
+  </script>
+  <script src="./BootStrap/bootstrap.min.js"></script>
+</body>
+
+</html>

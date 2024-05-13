@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=""/>
+  <meta name="author" content="" />
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="BootStrap/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- font Awesome -->
+  <script src="https://kit.fontawesome.com/26ef36b519.js" crossorigin="anonymous"></script>
+  <title>Royal Tex</title>
+</head>
+
+<body>
+  <div class="cart">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+      stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+    </svg>
+    <small id="cart-count" class="cart-count">0</small>
+  </div>
+  <div class="input position-relative w-100 ">
+    <input type="text" id="search" placeholder="ابحث عن منتج..." class="Search">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+      stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M21 21l-6 -6" />
+    </svg>
+  </div>
+<div class="container">
+  <div>
+    <div class="filter p-3">
+      <h5 class="text-center mb-4 list-group-item-light">Filter</h5>
+      <div id="filter-container" class="space-y-2">
+        <div class="form-check my-3 list-group-item-light">
+          <input type="checkbox" class="form-check-input check" id="sundwish-14c">
+          <label for="sundwish-14c">sundwish-14c</label>
+        </div>
+        <div class="form-check my-3 list-group-item-light">
+          <input type="checkbox" class="form-check-input check" id="sundwish-13c">
+          <label for="sundwish-13c">sundwish-13c</label>
+        </div>
+        <div class="form-check my-3 list-group-item-light">
+          <input type="checkbox" class="form-check-input check" id="sundwish-12c">
+          <label for="sundwish-12c">sundwish-12c</label>
+        </div>
+        <div class="form-check my-3 list-group-item-light">
+          <input type="checkbox" class="form-check-input check" id="sundwish-11c">
+          <label for="sundwish-11c"">sundwish-11c</label>
+        </div>
+        <div class="form-check my-3 list-group-item-light">
+          <input type="checkbox" class="form-check-input check" id="sundwish-10c">
+          <label for="sundwish-10c">sundwish-10c</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+  <div class="container-fluid">
+      <div class="row text-center" id="Products-container" >
+      </div>
+  </div>
+
+  <!-- Bootstrap core JS-->
+  <script src="BootStrap/bootstrap.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="./js/Products.js"></script>
+
+</body>
+
+</html>
